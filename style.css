@@ -1,0 +1,164 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    height:80px;
+    width:100%;
+    font-size:1rem;
+    color:gray;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.udemy-logo {
+     background-image: url("udemy-logo.png");
+     background-size: cover;
+     height:55px;
+     width:80px;
+     margin-bottom:15px;
+}
+
+.nav-search {
+    border:1px solid black;
+    border-radius:50px;
+    background-color:whitesmoke;
+    padding:15px;
+    height:50px;
+    width:600px;
+}
+
+.nav-logos {
+    color:black;
+    font-size:1.2rem;
+    font-weight:900;
+}
+
+.panel {
+    height:50px;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:0.85rem;
+    color:gray;
+    padding-left:100px;
+    padding-right:100px;
+    border-bottom: 1px solid lightgray;
+}
+
+.hero-section {
+    background-image: url("	https://img-b.udemycdn.com/notices/web_carousel_slide/image/91da579e-8b2c-47b1-b2d7-d3b608e57a7e.png");
+    width:80%;
+    height:400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left:150px;
+    margin-right: 150px;
+}
+
+.panel-msg {
+    background-color:rgb(237, 232, 232);
+    color:black;
+    width:30%;
+    height:200px;
+    position:relative;
+    top:80px;
+    left:80px;
+    padding:30px;
+}
+
+.panel-msg h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.panel-msg p {
+    margin-top:15px;
+}
+
+.recommend-section {
+    margin:50px 0px 0px 150px;
+}
+
+.recommend-section h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.recommend-section h3 {
+    font-weight:800;
+    margin-top:20px;
+}
+
+.courses {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:10px 140px 0px 140px;
+}
+
+.course-card {
+    height:350px;
+    width:300px;
+}
+
+.course-img {
+    height:200px;
+    width:290px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.course-name {
+    font-weight:800;
+    margin-top: 0px;
+}
+
+.mentor-name {
+    color:gray;
+    margin-top:10px;
+    font-size: 0.8rem;
+}
+
+.course-price {
+    font-weight:800;
+    margin-top: 5px;
+}
+
+.web-section {
+    margin-top:0px;
+    margin-left:150px;
+}
+
+.web-section h2 {
+    font-weight:bold;
+}
+
+.new-web-dev-courses {
+    margin-left:150px;
+}
+
+.new-web-dev-courses span {
+    color:rgb(89, 21, 153);
+}
+
+footer {
+    border-top:2px solid white;
+    background-color: rgb(21, 18, 18);
+    color:white;
+    height:300px;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    padding-top:50px;
+}
+
+footer p {
+    margin-top:10px;
+}
+
+
